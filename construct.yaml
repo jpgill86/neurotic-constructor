@@ -1,0 +1,23 @@
+name: neurotic
+version: 1.1.1
+
+channels:
+  - https://conda.anaconda.org/conda-forge/
+  - https://repo.anaconda.com/pkgs/main/
+  - https://repo.anaconda.com/pkgs/msys2
+
+write_condarc: true
+
+specs:
+  - neurotic=1.1.1
+  - conda
+  - console_shortcut
+  - menuinst
+
+installer_type: exe  # [win]
+installer_type: pkg  # [osx]
+installer_type: sh   # [linux]
+
+license_file: LICENSE
+
+icon_image: neurotic-logo.ico
