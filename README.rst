@@ -11,9 +11,12 @@ Related repositories:
 Usage
 -----
 
-Install conda constructor if necessary::
+Install conda constructor 3.0.0 if necessary::
 
-    conda install constructor
+    conda install constructor=3.0.0
+
+(As of 2019-12-06, version 3.0.1 has issues with building Windows installers;
+see https://github.com/conda/constructor/issues/318.)
 
 Change directories and run constructor::
 
