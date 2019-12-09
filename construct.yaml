@@ -1,5 +1,5 @@
 name: neurotic
-version: 1.2.0
+version: 1.2.1
 
 channels:
   - https://conda.anaconda.org/conda-forge/
@@ -9,7 +9,7 @@ channels:
 write_condarc: true
 
 specs:
-  - neurotic=1.2.0
+  - neurotic=1.2.1
   - conda
   - console_shortcut
   - menuinst
