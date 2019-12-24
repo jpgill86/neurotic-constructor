@@ -8,6 +8,8 @@ channels:
 
 write_condarc: true
 
+ignore_duplicate_files: true  # [osx]
+
 specs:
   - neurotic=1.2.1
   - conda
