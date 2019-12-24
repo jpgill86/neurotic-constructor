@@ -12,8 +12,8 @@ ignore_duplicate_files: true  # [osx]
 
 specs:
   - neurotic=1.2.1
-  - conda
-  - console_shortcut
+  - conda            # [win]
+  - console_shortcut # [win]
   - menuinst         # [win]
 
 installer_type: exe  # [win]
