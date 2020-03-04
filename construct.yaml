@@ -8,7 +8,7 @@ channels:
 
 write_condarc: true
 
-ignore_duplicate_files: true  # [osx]
+ignore_duplicate_files: true  # [osx, linux]
 
 specs:
   - neurotic=1.4.0
