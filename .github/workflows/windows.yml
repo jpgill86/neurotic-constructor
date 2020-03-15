@@ -1,7 +1,7 @@
 name: Windows installer
 
 env:
-  ARTIFACT: neurotic-1.4.0-Windows-x86_64.exe
+  ARTIFACT: neurotic-1.4.1-Windows-x86_64.exe
 
 on: push
 

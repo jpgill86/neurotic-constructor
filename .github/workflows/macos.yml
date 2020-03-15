@@ -1,7 +1,7 @@
 name: macOS installer
 
 env:
-  ARTIFACT: neurotic-1.4.0-MacOSX-x86_64.pkg
+  ARTIFACT: neurotic-1.4.1-MacOSX-x86_64.pkg
 
 on: push
 
