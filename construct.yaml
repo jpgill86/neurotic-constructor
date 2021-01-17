@@ -1,5 +1,5 @@
 name: neurotic
-version: 1.4.1
+version: 1.5.0
 
 channels:
   - https://conda.anaconda.org/conda-forge/
@@ -11,7 +11,7 @@ write_condarc: true
 ignore_duplicate_files: true  # [osx, linux]
 
 specs:
-  - neurotic=1.4.1
+  - neurotic=1.5.0
   - conda            # [win, linux]
   - console_shortcut # [win, linux]
   - menuinst         # [win]
