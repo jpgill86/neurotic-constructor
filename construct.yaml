@@ -11,10 +11,11 @@ write_condarc: true
 ignore_duplicate_files: true  # [osx, linux]
 
 specs:
-  - neurotic=1.5.0
   - conda            # [win, linux]
   - console_shortcut # [win, linux]
+  - git
   - menuinst         # [win]
+  - neurotic=1.5.0
 
 installer_type: exe  # [win]
 installer_type: pkg  # [osx]
