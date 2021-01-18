@@ -20,7 +20,8 @@ installer_type: pkg  # [osx]
 installer_type: sh   # [linux]
 
 initialize_by_default: false  # [win]
-initialize_by_default: true   # [osx, linux]
+initialize_by_default: true   # [osx]
+initialize_by_default: true   # [linux]
 
 register_python_default: false
 
