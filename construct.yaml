@@ -11,8 +11,8 @@ write_condarc: true
 ignore_duplicate_files: true  # [osx, linux]
 
 specs:
-  - conda            # [win, linux]
-  - console_shortcut # [win, linux]
+  - conda
+  - console_shortcut # [win]
   - git
   - menuinst         # [win]
   - neurotic=1.5.0
