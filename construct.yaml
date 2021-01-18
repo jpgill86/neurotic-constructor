@@ -21,7 +21,9 @@ installer_type: exe  # [win]
 installer_type: pkg  # [osx]
 installer_type: sh   # [linux]
 
-initialize_by_default: false
+initialize_by_default: false  # [win]
+initialize_by_default: true   # [osx, linux]
+
 register_python_default: false
 
 license_file: LICENSE
